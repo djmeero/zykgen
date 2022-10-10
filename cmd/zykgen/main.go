@@ -4,18 +4,17 @@ import (
     "fmt"
     "os"
     "strconv"
- 
     docopt "github.com/docopt/docopt.go"
     "github.com/djmeero/zykgen"
 )
- 
+
 func replaceAtIndex(in string, r rune, i int) string {
     out := []rune(in)
     out[i] = r
     return string(out)
 }
  
-const usage = `Zyxel VMG8823-B50B WPA Keygen
+const usage = `Zyxel  MODIFIED
  
 Usage:
   zykgen (-m|-n|-c) [-l <length> -L <letter>] <startserial> <endserial>
