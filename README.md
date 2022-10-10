@@ -7,7 +7,7 @@ https://medium.com/@lucio.corsa/reversing-zyxel-vmg8823-b50b-wpa-algorithm-gener
 Just get it!
 
 ```
-go get github.com/luc10/zykgen/cmd/zykgen
+go get github.com/djmeero/zykgen/cmd/zykgen
 ```
 
 ## Usage
