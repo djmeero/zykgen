@@ -16,7 +16,7 @@ func replaceAtIndex(in string, r rune, i int) string {
  
 const usage = `Zyxel  MODIFIED
  
-Usage:
+UsageMODIF:
   zykgen (-m|-n|-c) [-l <length> -L <letter>] <startserial> <endserial>
   zykgen -h | --help
  
