@@ -19,7 +19,7 @@ zykgen (-m|-n|-c) [-l <length>] serial
 ### Example
 
 ```
-zykgen -c S000Y00000000
+zykgen.exe -c -l 10 182000000000 182000000010
 ```
 
 ## Author
