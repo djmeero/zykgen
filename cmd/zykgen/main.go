@@ -3,7 +3,7 @@ package main
 import (
     "fmt"
     "os"
-    "strconv"cd 
+    "strconv"
  
     docopt "github.com/docopt/docopt.go"
     "github.com/luc10/zykgen"
