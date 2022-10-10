@@ -92,7 +92,7 @@ func main() {
         return
     }
  
-    for i := start; i < end; i++ {
+    for i := start; i <= end; i++ {
  
         seriale = fmt.Sprintf("%12d", i)
         seriale = "S" + replaceAtIndex(seriale, []rune(args.Letter)[0], 3)
