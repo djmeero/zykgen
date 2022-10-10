@@ -6,7 +6,7 @@ import (
     "strconv"
  
     docopt "github.com/docopt/docopt.go"
-    "github.com/djmeero/zykgen"
+    "github.com/luc10/zykgen"
 )
  
 func replaceAtIndex(in string, r rune, i int) string {
